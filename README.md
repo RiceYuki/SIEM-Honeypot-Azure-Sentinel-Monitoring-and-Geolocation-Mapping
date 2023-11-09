@@ -87,7 +87,10 @@ Navigated to ‘Log Analytics workspaces’ on Azure, then selected the project�
 Navigated to ‘Logs’ and typed a script and clicked ‘Run’. It takes a few minutes for the logs to appear. 
 <img src="https://i.imgur.com/VgJNs16.png" height="60%" width="60%"/>
 
-Note: You can find the script under 'Categorize Log Script' on Github.
+Note: The script name is RDP_Failure_Log_Analysis and can be found under this project Git Hub.
+
+Link to Script: https://github.com/RiceYuki/SIEM-Honeypot-Azure-Sentinel-Monitoring-and-Geolocation-Mapping/blob/main/RDP_Failure_Log_Analysis
+
 **Setup Map in Sentinel**
 - Navigated to ‘Microsoft Sentinel’ > ‘Workbooks’ > ‘Add Workbook’ > Edit.
 - Removed the 2 basic analytics query that was there by default, clicked on ‘Add Query’, and pasted the same script that was used in ‘Logs’. Clicked ‘Run Query’ and made sure the script worked. 
